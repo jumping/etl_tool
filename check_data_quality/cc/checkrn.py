@@ -17,7 +17,7 @@ def checkFile(filePath, readCode='utf_8_sig'):
     with codecs.open(filePath, 'rb', readCode) as fr, \
         codecs.open(new_file_path, 'w', readCode) as fw:
 
-        fw.write("start check " + filePath )
+        fw.write("start check " + filePath)
         i = 0
         error_line = 0
         while True:
